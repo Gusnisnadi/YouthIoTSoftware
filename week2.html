@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex flex-col justify-evenly h-[100vh] px-[20px]">
+    <div class="flex bg-blue-200 rounded-2xl overflow-hidden">
+        <img src="data:image/png;base64,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" alt="">
+        <div class="p-[10px]">
+            <p class="text-5xl font-bold">Judul</p>
+            <p class="text-justify">keterangan Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis suscipit ratione eveniet explicabo dignissimos molestias ipsam doloribus at. Quasi consectetur maiores saepe fuga molestias, assumenda minus enim pariatur deserunt delectus?</p>
+        </div>
+    </div>
+    <div class="flex justify-evenly gap-[20px]">
+        <div class="bg-red-200 w-[100%] rounded-xl">
+            <div class="flex flex-col items-center justify-evenly h-[200px] font-bold">
+                <p class="text-[20px]">judul</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+            </div>
+        </div>
+        <div class="bg-green-200 w-[100%] rounded-xl">
+            <div class="flex flex-col items-center justify-evenly h-[200px] font-bold">
+                <p class="text-[20px]">judul</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+            </div>
+        </div>
+        <div class="bg-yellow-200 w-[100%] rounded-xl">
+            <div class="flex flex-col items-center justify-evenly h-[200px] font-bold">
+                <p class="text-[20px]">judul</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

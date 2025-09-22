@@ -4,40 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+        body {
+        overflow-x: hidden; /* cegah scroll kiri/kanan */
+        margin: 0;
+        padding: 0;
+        }
+        header{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        border: 5px solid black;
+        }
+        header h1{
+            border: 10px solid white;
+            border-radius: 100px;
+            background-color: blue;
+            text-align: center;
+            font-family: asimovian, sans-serif;
+            width: 100%;
+        }
+        section{
+            background-color: yellow; 
+            width: 90%; 
+            gap: 100px; 
+            justify-self: center;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        section h2{
+            text-align: center;
+            font-family: asimovian, sans-serif;
+        }
+        hr{
+            display: none;
+        }
+        .coBA{
+            font-size: 100px;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div align="center">
-        <h1>Moh Goesny Isnady</h1>
+    <header>
+        <h1 class="coBA">Moh Goesny Isnady</h1>
         <p><i>Bogor, Indonesia</i> | <sup>isnadygoesny@gmail.com</sup> | 087775516496</p>
         <p>Mahasiswa Universitas Pembangunan Nasional Veteran Jakarta Semester 4 di jurusan Teknik Elektro, Memiliki kemampuan komunikasi dan analisa yang baik.</p>
-    </div>
-    <h2>Pengalaman</h2><hr>
-    <h3>Panitia Start-Up101 2024</h3>
-    <ul>
-        <li>Menjadi MC di acara</li>
-        <li>Mencari narasumber acara</li>
-        <li>Membuat Konsep ice breaking dan mini game</li>
-    </ul>
-    <h3>Panitia TEMA 2024</h3>
-    <ul>
-        <li>Menjadi MC di acara</li>
-        <li>Membuat susunan acara</li>
-        <li>Membuat Konsep ice breaking dan mini game</li>
-    </ul>
-    <h2>Pendidikan</h2><hr>
-    <ol>
-        <li>Sekolah Tinggi Akutansi Negara (2023 - sekarang)</li>
-        <li>MAN 1 Bogor (2020 - 2023)</li>
-        <li>MTSN 3 Bogor (2017-2020)</li>
-        <li>SDN Cipayung 01 (2011-2017)</li>
-    </ol>
-    <h2>Skill</h2><hr>
-    <ul>
-        <li>MC</li>
-        <li>menghitung</li>
-        <li>membaca</li>
-        <li>MS. Office</li>
-    </ul>
+    </header>
+    <section>
+        <h2 class="text-[50px] text-red-500">Pengalaman</h2><hr>
+        <section>
+            <div>
+                <h3>Panitia Start-Up101 2024</h3>
+                <ul>
+                    <li>Menjadi MC di acara</li>
+                    <li>Mencari narasumber acara</li>
+                    <li>Membuat Konsep ice breaking dan mini game</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Panitia TEMA 2024</h3>
+                <ul>
+                    <li>Menjadi MC di acara</li>
+                    <li>Membuat susunan acara</li>
+                    <li>Membuat Konsep ice breaking dan mini game</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <div>
+                <h2>Pendidikan</h2><hr>
+                <ol>
+                    <li>Sekolah Tinggi Akutansi Negara (2023 - sekarang)</li>
+                    <li>MAN 1 Bogor (2020 - 2023)</li>
+                    <li>MTSN 3 Bogor (2017-2020)</li>
+                    <li>SDN Cipayung 01 (2011-2017)</li>
+                </ol>
+            </div>
+            <div>
+                <h2>Skill</h2><hr>
+                <ul>
+                    <li>MC</li>
+                    <li>menghitung</li>
+                    <li>membaca</li>
+                    <li>MS. Office</li>
+                </ul>
+            </div>
+    </footer>
     <a href="https://youtu.be/g4aBoJfn_xI?si=7sjidmi-vjEfVBfU">link yutub</a>
     <img src="gambar\WhatsApp Image 2025-01-07 at 14.56.59.jpeg" alt="gambar github">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/g4aBoJfn_xI?si=VDVYs4XNIVmBxVCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
